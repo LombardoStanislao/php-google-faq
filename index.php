@@ -72,12 +72,67 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/7b09a46f67.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dist/app.css">
     <title></title>
   </head>
   <body>
 
     <header>
+      <nav class="navbar-top">
+        <div class="logo">
+          <a href="#">
+            <img src="img/logo.png" alt="logo Google">
+          </a>
+          <a href="#">
+            <span>Privacy e termini</span>
+          </a>
+
+        </div>
+        <div class="user-menu">
+          <a id="google-apps" href="#">
+            <i class="fas fa-th"></i>
+          </a>
+          <a id="user-settings" href="#">
+            <i class="fas fa-user"></i>
+          </a>
+
+        </div>
+
+
+      </nav>
+      <nav class="navbar-bottom">
+        <ul>
+          <li>
+            <a href="#">
+              Introduzione
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Norme sulla privacy
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Termini di servizio
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Tecnologie
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Domande frequenti
+            </a>
+          </li>
+        </ul>
+
+      </nav>
 
     </header>
 
@@ -90,10 +145,7 @@
             <h2>
               <?php echo $value["domanda"]; ?>
             </h2>
-            <?php echo $value["risposta"]; ?>
-
-
-          <?php
+            <?php echo $value["risposta"];
           }
 
           ?>

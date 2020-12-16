@@ -1,4 +1,96 @@
 header {
   height: 100px;
-  background-color: lightblue;
+}
+
+nav {
+  padding-left: $spacing / 2;
+  padding-right: $spacing / 2;
+  a {
+    text-decoration: none;
+  }
+}
+
+.navbar-top {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: $spacing;
+  padding-right: $spacing;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    img {
+      height: 50px;
+    }
+    span {
+      color: $navbar-font-color;
+      font-size: 20px;
+      padding-left: $spacing / 4;
+      font-weight: 400;
+      line-height: 50px;
+    }
+  }
+
+  .user-menu {
+    display: flex;
+    align-items: center;
+
+    #google-apps {
+      padding: $spacing / 2;
+      i {
+        color: $navbar-font-color;
+      }
+      &:hover {
+        background-color: rgba(60,64,67,0.08);
+        border-radius: 50%;
+      }
+    }
+
+      .fa-user {
+        padding: $spacing / 2.5;
+        background-color: $navbar-font-color;
+        border-radius: 50%;
+        color: white;
+        margin-left: $spacing;
+      }
+
+  }
+
+
+}
+
+.navbar-bottom {
+  height: 50px;
+  border-bottom: 1px solid $navbar-font-color;
+  display: flex;
+  justify-content: space-between;
+  padding-left: $spacing;
+  padding-right: $spacing;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      margin-top: $spacing;
+
+      a {
+        color: $navbar-font-color;
+        margin: 0 $spacing 0 0;
+        font-size: 15px;
+        padding-bottom: $spacing / 2.2;
+
+        &:hover {
+          color: #3367d6;
+          border-bottom: 2px solid #3367d6;
+        }
+
+
+      }
+
+    }
+  }
 }
