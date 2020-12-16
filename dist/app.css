@@ -122,3 +122,60 @@ nav a {
   border-bottom: 2px solid #3367d6;
 }
 
+footer {
+  height: 50px;
+  background-color: #f5f5f5;
+}
+
+footer .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-left ul {
+  list-style-type: none;
+}
+
+.footer-left ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.footer-left ul li a {
+  align-self: center;
+  text-decoration: none;
+  color: rgba(61, 61, 61, 0.8);
+  font-size: 11px;
+  font-weight: 300;
+  margin-right: 10px;
+}
+
+.add-dot::after {
+  content: ".";
+  position: absolute;
+  font-weight: 300;
+  right: 0;
+  top: -10%;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.footer-right .fa-globe-americas {
+  color: #3367d6;
+}
+
+.footer-right select {
+  padding: 0 60px 0 0;
+  margin-left: 5px;
+}
+

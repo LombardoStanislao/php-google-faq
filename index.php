@@ -157,6 +157,43 @@
 
     </main>
 
+    <footer>
+      <div class="container">
+        <div class="footer-left">
+          <ul>
+            <li class="add-dot">
+              <a href="#">Google</a>
+            </li>
+            <li class="add-dot">
+              <a href="#">Tutto su Google</a>
+            </li>
+            <li class="add-dot">
+              <a href="#">Privacy</a>
+            </li>
+            <li>
+              <a href="#">Termini</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-right">
+
+          <i class="fas fa-globe-americas"></i>
+          <select class="" name="">
+            <option value="">Italiano</option>
+            <option value="">Tedesco</option>
+            <option value="">Inglese</option>
+            <option value="">Giapponese</option>
+            <option value="">Francese</option>
+            <option value="">Spagnolo</option>
+
+          </select>
+
+        </div>
+
+      </div>
+
+    </footer>
+
 
 
   </body>
