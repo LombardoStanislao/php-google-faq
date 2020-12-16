@@ -1,5 +1,4 @@
-$background: purple;
-
-p {
-  color: $background;
-}
+@import 'partials/variables';
+@import 'partials/commons';
+@import 'partials/header';
+@import 'partials/footer';
