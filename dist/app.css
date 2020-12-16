@@ -5,6 +5,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+main {
+  padding-top: 100px;
+}
+
 .container {
   max-width: 992px;
   margin: auto;
@@ -26,8 +30,17 @@
   line-height: 24px;
 }
 
+.faqs p a {
+  text-decoration: none;
+  color: #3367d6;
+  cursor: pointer;
+}
+
 header {
+  position: fixed;
   height: 100px;
+  width: 100%;
+  background-color: white;
 }
 
 nav {
@@ -92,7 +105,7 @@ nav a {
 
 .navbar-bottom {
   height: 50px;
-  border-bottom: 1px solid #5f6368;
+  border-bottom: 1px solid #c7c9cc;
   display: flex;
   justify-content: space-between;
   padding-left: 20px;

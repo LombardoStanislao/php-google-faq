@@ -1,5 +1,8 @@
 header {
+  position: fixed;
   height: 100px;
+  width: 100%;
+  background-color: white;
 }
 
 nav {
@@ -62,7 +65,7 @@ nav {
 
 .navbar-bottom {
   height: 50px;
-  border-bottom: 1px solid $navbar-font-color;
+  border-bottom: 1px solid lighten($navbar-font-color, 40%);
   display: flex;
   justify-content: space-between;
   padding-left: $spacing;
@@ -84,8 +87,8 @@ nav {
         padding-bottom: $spacing / 2.2;
 
         &:hover {
-          color: #3367d6;
-          border-bottom: 2px solid #3367d6;
+          color: $external-link-color;
+          border-bottom: 2px solid $external-link-color;
         }
 
 
